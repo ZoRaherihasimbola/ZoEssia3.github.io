@@ -1,0 +1,112 @@
+body{
+	font-family: 'Century Gothic',Calabria, serif;
+	font-size: 25px;
+	margin: 10px;
+	padding: 10px;
+	background-color: #ffffff;
+}
+h1{
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+	font-family:fantasy;
+	font-style: unset;
+	color: rgb(18, 233, 54);
+}
+header{
+	height: 100px;
+
+}
+footer{
+	height: 80px;
+	padding-top: 30px ;
+	text-align: center;
+	background-color: #06ff1b;
+	border-top: 2px solid rgb(32, 255, 3);
+}
+nav{
+	width: 100%;
+	background-color: #48ff00;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.menu-ind:hover{
+	border-top: 5px solid rgb(240, 10, 182);
+	background-color: rgba(64, 200,130,0.15);
+
+}
+.menu-dipl:hover{
+	border-top: 5px solid #f02106;
+	background-color: rgba(241, 211,79,0.15);
+}
+.menu-hob:hover{
+	border-top: 5px solid #0070BB;
+	background-color: rgba(000,112, 192,0.15);
+
+}
+
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+section{
+	width: 100%;
+	min-height: 300px;
+	padding-bottom: 20px ;
+	margin-bottom: 20px;
+}
+
+}
+.gauche{
+	float: left;
+	width: 30%;
+}
+.droite{
+	float: right;
+	width: 70%;
+}
+.exp::after{
+	content: "";
+	display: table;
+	clear: both;
+
+}
+.sary{
+	width: 500px;
+	height: 500px;
+}
+.sec{
+	width: 70%;
+	min-height: 600px;
+	padding-bottom: 10px ;
+	margin-bottom: 10px;
+}
+.g{
+	float: left;
+	width: 70%;
+}
+.d{
+	float: right;
+	width: 30%;
+}
+.parcours{
+	font-size: 20px;
+}
